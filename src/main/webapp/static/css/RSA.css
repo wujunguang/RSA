@@ -1,0 +1,110 @@
+/*清除所有样式*/
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	background: url(../img/tupian3.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+body h1 {
+	font-weight: bold;
+	color: #000000;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 20px;
+}
+.content{
+	width: 780px;
+	height: 442px;
+	border-radius: 20px;
+	margin: auto;
+}
+.content .data_1 .label_1,
+.content .data_2 .label_2,
+.content .data_3 .label_3,
+.content .data_4 .label_4{
+	color: #000000;
+	font-size: 20px;
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+}
+.content .data_4 .label_5,
+.content .data_4 .label_6{
+	color: #000000;
+	font-size: 20px;
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+}
+.content .data_1 input,
+.content .data_2 input,
+.content .data_3 input,
+.content .data_4 input
+{
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.content .label_7,
+.content .label_8{
+	color: #000000;
+	font-size: 20px;
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 212px;
+}
+.content .data_5 textarea,
+.content .data_6 textarea
+{
+	margin-left: 100px;
+	width: 300px;
+	height: 60px;
+	line-height: 30px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.content .data_1,
+.content .data_2,
+.content .data_3,
+.content .data_4,
+.content .data_5,
+.content .data_6{
+	text-align: center;
+}
+.content .btn button{
+	border-color: #4fadeb;
+	display: block;
+	width: 110px;
+	height: 100%;
+	line-height: 30px;
+	background: #4fadeb;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #fff;
+	float: left;
+	margin-left: 220px;
+}
+.content .btn .button2{
+	margin-left: 10px;
+}
+.content .btn .button3{
+	margin-left: 10px;
+}
